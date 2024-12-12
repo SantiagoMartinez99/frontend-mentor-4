@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  border-radius: 1rem;
+  width: 50%;
+  margin: 5rem;
+}
+.container-content {
+  padding: 0 3rem;
+}
+
+.img-omelette {
+  margin: 2rem 2rem 0 3rem;
+  border-radius: 0.7rem;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container-content {
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  .img-omelette {
+    height: fit-content;
+    width: 100%;
+    border-radius: 0rem;
+    margin: 0;
+  }
+}
+
+.container-preparation {
+  background-color: hsl(330, 100%, 98%);
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  font-family: "Outfit", sans-serif;
+  border-radius: 1rem;
+}
+
+.container-preparation ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.container-preparation h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+
+.table-nutrition {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.table-nutrition tr {
+  border-bottom: 1px solid #eee;
+}
+
+.table-nutrition tr:last-child {
+  border-bottom: none;
+}
+
+.table-nutrition td {
+  padding: 1rem 1rem;
+}
+
+.table-nutrition td:first-child {
+  text-align: left;
+  font-weight: 400;
+}
+
+.table-nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+li {
+  margin: 0.7rem 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+li::marker,
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+h1 {
+  color: hsl(0, 0%, 0%);
+  margin: 1.5rem 0;
+  font-weight: 400;
+  font-family: "Young Serif", sans-serif;
+}
+
+h2 {
+  margin: 0 0 1rem 0;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-family: "Young Serif", sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+hr {
+  border: 1px solid hsl(30, 18%, 87%);
+  margin: 2rem 0;
+}
